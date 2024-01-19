@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!.npmrc
+!dist
+!chart
+!package.json
+!pnpm-lock.yaml
+!nginx

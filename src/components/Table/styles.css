@@ -1,0 +1,36 @@
+/* .rowTable {
+  background-color:cornflowerblue;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+} */
+
+/* .ant-table-tbody > tr > td, .ant-table-thead > tr > th
+{
+    padding:4px;  
+}
+thead[class*="ant-table-thead"] th{
+  background-color: rgba(128, 128, 128, 0.212) !important;
+  color: blue !important;
+  font-weight: bold;
+  border: 1px solid black !important;
+  text-align: center !important;
+} */
+
+.actions {
+  visibility: hidden;
+}
+
+.ant-table-row {
+  position: relative;
+}
+
+.ant-table-row:hover .actions {
+  visibility: visible;
+}
+
+.ant-pagination-total-text { 
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+}
